@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import valuewarelogo from '../../public/valuewarelogo.png';
+import chep from '../../public/ChepDaddy.png';
+import kevinq from '../../public/KevinQ.png';
 
 export default function Page() {
   return (
@@ -33,10 +35,28 @@ export default function Page() {
         <p className="text-base mb-4">
           Meet the Visionaries:
           <br />
-          Kevin Quisumbing, CEO: More than just a strategist, Kevin merges business acumen with the latest in technology, while also spearheading our sales initiatives.
+          <a href="https://www.linkedin.com/in/kevinmichale/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center mt-7">
+            <Image src={kevinq} 
+            alt="Kevin Quisumbing" 
+            width={200} 
+            height={200}
+            className="h-auto rounded-lg mb-8"
+            />
+            Kevin Quisumbing, CEO: More than just a strategist, Kevin merges business acumen with the latest in technology, while also spearheading our sales initiatives.
+          </a>
           <br />
-          Conor Chepenik, CTO: A tech maestro, Conor transforms intricate tech nuances into actionable growth strategies, ensuring we&apos;re always ahead of the curve.
+          <a href="https://www.linkedin.com/in/conorchepenik/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <Image 
+            src={chep} 
+            alt="Conor Chepenik" 
+            width={200} 
+            height={200} 
+            className="h-auto rounded-lg mb-8"
+            />
+            Conor Chepenik, CTO: A tech maestro, Conor transforms intricate tech nuances into actionable growth strategies, ensuring we&apos;re always ahead of the curve.
+          </a>
         </p>
+
 
         <h2 className="text-3xl font-semibold mt-6 mb-3">Our Services</h2>
         <p className="text-base mb-4">
