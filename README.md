@@ -2,7 +2,7 @@
 
 Valueware: Your Digital Beacon
 
-![Valueware Logo](valuewarelogo.png)
+![Valueware Logo](./public/valuewarelogo.png)
 
 Welcome to the official repository of Valueware, a premier boutique software development agency based on the east coast of Florida. Dive deep into our mission, services, and the passionate minds behind our innovative solutions.
 
