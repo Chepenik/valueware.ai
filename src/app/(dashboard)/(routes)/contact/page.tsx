@@ -69,7 +69,7 @@ const ContactSection = () => {
             name="phone"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="border rounded-lg px-4 py-2 w-64 focus:outline-none focus:border-green-500"
+            className="border rounded-lg px-4 py-2 w-64 focus:outline-none focus:border-blue-500"
             placeholder="Enter your phone"
             required
           />
@@ -80,7 +80,7 @@ const ContactSection = () => {
             name="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="border rounded-lg px-4 py-2 w-64 h-24 resize-none focus:outline-none focus:border-green-500"
+            className="border rounded-lg px-4 py-2 w-64 h-24 resize-none focus:outline-none focus:border-blue-500"
             placeholder="Enter your message"
             required  
           ></textarea>
