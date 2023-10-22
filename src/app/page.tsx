@@ -2,6 +2,7 @@ import Image from 'next/image';
 import valuewarelogo from '../../public/valuewarelogowithouttext.png';
 import chep from '../../public/ChepDaddy.png';
 import kevinq from '../../public/KevinQ.png';
+import Link from 'next/link';
 
 export default function Page() {
   return (
@@ -67,11 +68,15 @@ export default function Page() {
         <p className="text-base mb-4">
           Beyond solutions, we offer partnerships, ensuring you lead in the digital realm.
         </p>
-
         <h2 className="text-3xl font-semibold mt-6 mb-3">Connect with Us</h2>
         <p className="text-base mb-4">
-          Ready for a digital transformation? Stay tuned for our contact page.
+          Ready for a digital transformation?
         </p>
+        <Link className="px-4 py-2 text-lg font-medium text-white bg-blue-300 rounded hover:bg-green-400 hover:text-gray-600 transition-colors duration-300 ease-in-out"href="/contact">
+          <button>
+            Contact Page Coming Soon
+          </button>
+        </Link>
       </section>
     </main>
   );
