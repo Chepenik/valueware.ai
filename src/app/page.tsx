@@ -1,35 +1,36 @@
 import Image from 'next/image';
-import valuewarelogo from '../../public/valuewarelogo.png';
+import valuewarelogo from '../../public/valuewarelogowithouttext.png';
 import chep from '../../public/ChepDaddy.png';
 import kevinq from '../../public/KevinQ.png';
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100">
-              <Image
-          src={valuewarelogo}
-          alt="Valueware Logo"
-          className="h-auto rounded-lg mb-8"
-          width={300}
-          height={300}
-          priority
-        />
+    <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-blue-100">
+      <Image
+        src={valuewarelogo}
+        alt="Valueware Logo"
+        className="h-auto rounded-lg mb-8"
+        width={300}
+        height={300}
+        priority
+      />
+      <h1 className="text-6xl font-bold mb-4 text-black">Valueware</h1>
+      <br />
       <section className="max-w-3xl text-center text-black">
-
-        <h1 className="text-4xl font-bold mb-4">Welcome to Valueware</h1>
-        <p className="text-xl mb-4">Your Digital Beacon in the 21st Century</p>
-        <p className="text-base mb-4">
-          Positioned on the sunny shores of Florida&apos;s east coast, Valueware is not just another software development agency. We are your partners in a digital revolution, leveraging AI to help businesses like yours thrive in today&apos;s fast-paced digital era.
+        <h3 className="text-3xl font-bold mb-4">A Boutique Software Consultancy</h3>
+        
+        <p className="text-xl mb-4">
+          Based in Florida, Valueware is your digital beacon in the 21st century. We specialize in leveraging AI and software, helping businesses automate and focus on their core revenue generators.
         </p>
 
-        <h2 className="text-3xl font-semibold mt-6 mb-3">Our Mission</h2>
+        <h4 className="text-3xl font-semibold mt-6 mb-3">Our Mission</h4>
         <p className="text-base mb-4">
-          Empower businesses with innovative software solutions to amplify sales and harness the full potential of the digital era.
+          To empower businesses with tailored software solutions, amplifying their reach and potential in the digital era.
         </p>
 
         <h2 className="text-3xl font-semibold mt-6 mb-3">About Us</h2>
         <p className="text-base mb-4">
-          Born on October 15, 2023, Valueware isn&apos;t just a name; it&apos;s a promise. A promise to help businesses unlock unprecedented value through software. Whether you&apos;re a sprawling resort or a quaint cafe, we tailor our solutions to fit your unique needs.
+          Founded on October 15, 2023, Valueware is committed to driving value through software for all businesses, big or small.
         </p>
 
         <p className="text-base mb-4">
@@ -42,7 +43,7 @@ export default function Page() {
             height={200}
             className="h-auto rounded-lg mb-8"
             />
-            Kevin Quisumbing, CEO: More than just a strategist, Kevin merges business acumen with the latest in technology, while also spearheading our sales initiatives.
+            Kevin Quisumbing, CEO: Merging tech and business strategies.
           </a>
           <br />
           <a href="https://www.linkedin.com/in/conorchepenik/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
@@ -53,24 +54,23 @@ export default function Page() {
             height={200} 
             className="h-auto rounded-lg mb-8"
             />
-            Conor Chepenik, CTO: A tech maestro, Conor transforms intricate tech nuances into actionable growth strategies, ensuring we&apos;re always ahead of the curve.
+            Conor Chepenik, CTO: Leading our tech innovations.
           </a>
         </p>
 
-
         <h2 className="text-3xl font-semibold mt-6 mb-3">Our Services</h2>
         <p className="text-base mb-4">
-          From bespoke web development to cutting-edge AI strategies, we&apos;re here to guide your digital journey, ensuring you&apos;re always one step ahead of the competition.
+          Offering custom web development and AI solutions to keep you ahead in the digital race.
         </p>
 
         <h2 className="text-3xl font-semibold mt-6 mb-3">Why Choose Valueware?</h2>
         <p className="text-base mb-4">
-          Our aim is simple: to bridge the digital divide. In a world where technology is constantly evolving, we ensure you&apos;re not just keeping up, but leading the way. As a consultancy, we don&apos;t just offer solutions; we offer partnerships. With a keen focus on niche markets and a commitment to thought leadership, our path to success is paved with innovation and expertise.
+          Beyond solutions, we offer partnerships, ensuring you lead in the digital realm.
         </p>
 
         <h2 className="text-3xl font-semibold mt-6 mb-3">Connect with Us</h2>
         <p className="text-base mb-4">
-          Excited about embarking on a digital transformation? So are we! Our contact page is under development, but soon, you&apos;ll be able to reach out and discuss how we can collaborate. Stay tuned!
+          Ready for a digital transformation? Stay tuned for our contact page.
         </p>
       </section>
     </main>
