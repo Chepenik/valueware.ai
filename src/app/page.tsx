@@ -74,7 +74,7 @@ export default function Page() {
         </p>
         <Link className="px-4 py-2 text-lg font-medium text-white bg-blue-300 rounded hover:bg-green-400 hover:text-gray-600 transition-colors duration-300 ease-in-out"href="/contact">
           <button>
-            Contact Page Coming Soon
+            Contact Page
           </button>
         </Link>
       </section>
