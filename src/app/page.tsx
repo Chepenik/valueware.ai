@@ -67,11 +67,12 @@ export default function Page() {
             We dig deep to understand what’s truly driving your revenue. We streamline those critical processes and supercharge them with automation. Helping you sell more, serve better, and scale smarter.
           </p>
           <p className="text-base mb-4">Meet the Visionaries:</p>
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row">
             <a href="https://www.linkedin.com/in/kevinmichale/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <Image src={kevinq} alt="Kevin Quisumbing" width={200} height={200} className="h-auto rounded-lg mb-8" />
               Kevin Quisumbing, CEO: Merging tech and business strategies.
             </a>
+            <br></br>
             <a href="https://www.linkedin.com/in/conorchepenik/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <Image src={chep} alt="Conor Chepenik" width={200} height={200} className="h-auto rounded-lg mb-8" />
               Conor Chepenik, CTO: Leading our tech innovations.
