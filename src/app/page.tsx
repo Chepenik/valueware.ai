@@ -61,7 +61,7 @@ export default function Page() {
         <section className="max-w-3xl text-center text-black">
           <h3 className="text-3xl font-bold mb-4">A Boutique Software Consultancy</h3>
           <h2 className="text-3xl font-semibold mt-6 mb-3">About Us</h2>
-          <p className="text-base mb-4">Founded on October 15, 2023, Valueware is committed to driving value through software for all businesses, big or small.</p>
+          <p className="text-base mb-4">Valueware is committed to driving value through software for all businesses, big or small.</p>
           <h4 className="text-3xl font-semibold mt-6 mb-3">So what does Valueware do, exactly?</h4>
           <p className="text-base mb-4">
             We dig deep to understand what’s truly driving your revenue. We streamline those critical processes and supercharge them with automation. Helping you sell more, serve better, and scale smarter.
