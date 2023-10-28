@@ -61,10 +61,10 @@ export default function Page() {
         <section className="max-w-3xl text-center text-black">
           <h3 className="text-3xl font-bold mb-4">A Boutique Software Consultancy</h3>
           <h2 className="text-3xl font-semibold mt-6 mb-3">About Us</h2>
-          <p className="text-base mb-4">Valueware is committed to driving value through software for all businesses, big or small.</p>
+          <p className="text-base mb-4">We don&apos;t take businesses from zero to one; we propel them from one to a hundred.</p>
           <h4 className="text-3xl font-semibold mt-6 mb-3">So what does Valueware do, exactly?</h4>
           <p className="text-base mb-4">
-            We dig deep to understand what’s truly driving your revenue. We streamline those critical processes and supercharge them with automation. Helping you sell more, serve better, and scale smarter.
+            We dig deep to understand what&apos;s truly driving your revenue. We streamline those critical processes and supercharge them with automation. Helping you sell more, serve better, and scale smarter.
           </p>
           <p className="text-base mb-4">Meet the Visionaries:</p>
           <div className="flex flex-col md:flex-row">
