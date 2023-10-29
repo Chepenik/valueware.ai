@@ -5,6 +5,7 @@ import valuewarelogo from '../../public/valuewarelogowithouttext.png';
 import chep from '../../public/ChepDaddy.png';
 import kevinq from '../../public/KevinQ.png';
 import React, { useState } from 'react'; 
+import Header from './(components)/header';
 
 export default function Page() {
   const [email, setEmail] = useState('');
@@ -48,19 +49,19 @@ export default function Page() {
 
   return (
     <>
-    {isLoading && (
-      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-500">Your submission is being processed and you will be redirected once we confirm a successful submission.</h3>
+      {isLoading && (
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-semibold mb-4 text-gray-500">Your submission is being processed and you will be redirected once we confirm a successful submission.</h3>
+          </div>
         </div>
-      </div>
-    )}
+      )}
+      <Header />
       <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-blue-100">
-        <Image src={valuewarelogo} alt="Valueware Logo" className="h-auto rounded-lg mb-8" width={300} height={300} priority />
-        <h1 className="text-6xl font-bold mb-4 text-black">Valueware</h1>
+        <h1 id="home" className="text-6xl font-bold mb-4 text-black">Valueware</h1>
         <section className="max-w-3xl text-center text-black">
           <h3 className="text-3xl font-bold mb-4">A Boutique Software Consultancy</h3>
-          <h2 className="text-3xl font-semibold mt-6 mb-3">About Us</h2>
+          <h2 id="about" className="text-3xl font-semibold mt-6 mb-3">About Us</h2>
           <p className="text-base mb-4">We don&apos;t take businesses from zero to one; we propel them from one to a hundred.</p>
           <h4 className="text-3xl font-semibold mt-6 mb-3">So what does Valueware do, exactly?</h4>
           <p className="text-base mb-4">
@@ -78,10 +79,8 @@ export default function Page() {
               Conor Chepenik, CTO: Leading our tech innovations.
             </a>
           </div>
-          <h2 className="text-3xl font-semibold mt-6 mb-3">Why Partner with Valueware?</h2>
-          <p className="text-base mb-4">Beyond solutions, we offer partnerships, ensuring you lead in the digital realm.</p>
           <h2 className="text-3xl font-semibold mt-6 mb-3">Elevate Your Business with Automation!</h2>
-          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+          <h2 id="contact" className="text-2xl font-semibold mb-4">Contact Us</h2>
         
         <form onSubmit={handleSubmit} className="flex flex-col items-center">
           <label htmlFor="email" className="text-lg mb-2">Email:</label>
@@ -130,4 +129,4 @@ export default function Page() {
     </main>
   </>
   );
-}
+};  
