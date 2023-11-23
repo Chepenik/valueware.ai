@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 import Header from './(components)/header';
 import gptImage1 from '../../public/bookclub.jpg';
 import gptImage2 from '../../public/mr.nakamoto.jpg';
-import gptImage3 from '../../public/tiktok.jpg';
+import gptImage3 from '../../public/4chan.jpg';
 
 export default function Page() {
   const [email, setEmail] = useState('');
@@ -93,9 +93,9 @@ export default function Page() {
               <Image src={gptImage2} alt="GPT 2" width={200} height={200} className="rounded-full" />
               <p>Mr.Nakamoto GPT</p>
             </a>
-            <a href="https://chat.openai.com/g/g-An5nwh3ey-tiktoktrendsitter" target="_blank" rel="noopener noreferrer">
+            <a href="https://chat.openai.com/g/g-kc1xrr2PC-4chan-gpt" target="_blank" rel="noopener noreferrer">
               <Image src={gptImage3} alt="GPT 3" width={200} height={200} className="rounded-full" />
-              <p>TikTokGPT</p>
+              <p>4chan GPT</p>
             </a>
           </div>
         </section>
