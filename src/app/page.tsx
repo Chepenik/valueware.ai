@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import valuewarelogo from '../../public/valuewarelogowithouttext.png';
+import Slider from './(components)/slider';
 import chep from '../../public/ChepDaddy.png';
 import kevinq from '../../public/KevinQ.png';
 import React, { useState } from 'react'; 
@@ -99,6 +100,7 @@ export default function Page() {
             </a>
           </div>
         </section>
+        <Slider />
           <h2 className="text-3xl font-semibold mt-6 mb-3">Elevate Your Business with AI</h2>
           <h2 id="contact" className="text-2xl font-semibold mb-4">Contact Us</h2>
         
