@@ -83,24 +83,7 @@ export default function Page() {
               Conor Chepenik, CTO: Leading our tech innovations.
             </a>
           </div>
-          <section className="max-w-3xl text-center text-black mb-6">
-          <h2 className="text-3xl font-semibold mb-4">Explore Our GPTs</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <a href="https://chat.openai.com/g/g-IBmJJs9c3-bookclubgpt" target="_blank" rel="noopener noreferrer">
-              <Image src={gptImage1} alt="GPT 1" width={200} height={200} className="rounded-full" />
-              <p>Bookclub GPT</p>
-            </a>
-            <a href="https://chat.openai.com/g/g-2Z9CpJRSs-mr-nakamoto" target="_blank" rel="noopener noreferrer">
-              <Image src={gptImage2} alt="GPT 2" width={200} height={200} className="rounded-full" />
-              <p>Mr.Nakamoto GPT</p>
-            </a>
-            <a href="https://chat.openai.com/g/g-kc1xrr2PC-4chan-gpt" target="_blank" rel="noopener noreferrer">
-              <Image src={gptImage3} alt="GPT 3" width={200} height={200} className="rounded-full" />
-              <p>4chan GPT</p>
-            </a>
-          </div>
-        </section>
-        <Slider />
+        {/* <Slider /> */}
           <h2 className="text-3xl font-semibold mt-6 mb-3">Elevate Your Business with AI</h2>
           <h2 id="contact" className="text-2xl font-semibold mb-4">Contact Us</h2>
         
